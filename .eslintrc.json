@@ -5,7 +5,13 @@
     "commonjs": true,
     "es2020": true
   },
-  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:@typescript-eslint/recommended"],
+  "extends": [
+    "eslint:recommended", 
+    "plugin:react/recommended", 
+    "plugin:@typescript-eslint/recommended",
+    "airbnb-base",
+    "airbnb"
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -15,11 +21,22 @@
   },
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "@typescript-eslint/explicit-module-boundary-types": 0
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/brace-style": ["error"],
+    "@typescript-eslint/type-annotation-spacing": [2, { 
+      "before": false, 
+      "after": true, 
+      "overrides": { 
+        "arrow": { 
+          "after": true, 
+          "before": true 
+      }
+     } 
+    }],
   },
   "overrides": [
     {
-      "files": ["*.js"],
+      "files": ["*.js", "*.ts", "*.tsx"],
       "rules": {
         "@typescript-eslint/no-var-requires": 0
       }

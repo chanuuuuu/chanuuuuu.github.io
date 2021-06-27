@@ -1,34 +1,31 @@
 module.exports = {
   /** Site MetaData (Required all)*/
-  title: `Title`,                           // (* Required)
-  description: `Blog Description`,          // (* Required)
-  author: `Author`,                         // (* Required)
+  title: `무지성 개발 탈출기`,              // (* Required)
+  description: `chanuuuu's devlog`,          // (* Required)
+  author: `Chanuuuu`,                         // (* Required)
   language: 'ko-KR',                        // (* Required) html lang, ex. 'en' | 'en-US' | 'ko' | 'ko-KR' | ...
-  siteUrl: 'https://',                      // (* Required)
-    // ex.'https://junhobaik.github.io'
-    // ex.'https://junhobaik.github.io/' << X, Do not enter "/" at the end.
+  siteUrl: 'https://chanuuuuu.github.io',   // (* Required)
 
   /** Header */
-  profileImageFileName: '', // include filename extension ex.'profile.jpg'
-    // The Profile image file is located at path "./images/"
-    // If the file does not exist, it is replaced by a random image.
+  profileImageFileName: 'profile.png', // include filename extension ex.'profile.jpg'
 
   /** Home > Bio information*/
-  comment: 'Enter your information in the "./config.js" file. ',
-  name: 'User Name',
-  company: '',
-  location: 'Korea',
-  email: '',
-  website: 'https://github.com/junhobaik/junhobaik.github.io',           // ex.'https://junhobaik.github.io'
+  comment: `개발하며 깊게 생각하지 않았던 것들, 당연하게 생각하였던 것들에 대하여`,
+  stack: 'Front-end | DB',
+  name: 'Chanwoo Park',
+  // company: 'onad',
+  location: '',
+  email: 'qkrcksdn0208@naver.com',
+  website: 'https://mytruepoint.com',         // ex.'https://junhobaik.github.io'
   linkedin: '',                                                          // ex.'https://www.linkedin.com/in/junho-baik-16073a19ab'
   facebook: '',                                                          // ex.'https://www.facebook.com/zuck' or 'https://www.facebook.com/profile.php?id=000000000000000'
-  instagram: '',                                                         // ex.'https://www.instagram.com/junhobaik'
-  github: '',                                                            // ex.'https://github.com/junhobaik'
+  instagram: 'https://www.instagram.com/ch_nuuuu',                      // ex.'https://www.instagram.com/junhobaik'
+  github: 'https://github.com/chanuuuuu',                               // ex.'https://github.com/junhobaik'
 
   /** Post */
   enablePostOfContents: true,     // TableOfContents activation (Type of Value: Boolean. Not String)
   disqusShortname: '',            // comments (Disqus sort-name)
-  enableSocialShare: true,        // Social share icon activation (Type of Value: Boolean. Not String)
+  enableSocialShare: false,        // Social share icon activation (Type of Value: Boolean. Not String)
 
   /** Optional */
   googleAnalytics: '',     // Google Analytics TrackingID. ex.'UA-123456789-0'
