@@ -3,17 +3,17 @@
   "private": true,
   "description": "Gatsby Blog, 'Borderless' Theme By Junhobaik",
   "version": "3.0.0",
-  "author": "JunhoBaik",
+  "author": "chanuuuuu",
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/junhobaik/junhobaik.github.io"
+    "url": "https://github.com/chanuuuuu/chanuuuuu.github.io"
   },
   "bugs": {
-    "url": "https://github.com/junhobaik/junhobaik.github.io/issues"
+    "url": "https://github.com/chanuuuuu/chanuuuuu.github.io/issues"
   },
   "scripts": {
     "start": "gatsby develop",

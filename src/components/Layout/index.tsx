@@ -68,10 +68,7 @@ const Layout = (props: LayoutPropsType) => {
         <div id="content">
           <main>{children}</main>
           <footer>
-            <span>{`© ${new Date().getFullYear()} ${data.site.siteMetadata.author} | Theme by `}</span>
-            <a href="https://github.com/junhobaik">JunhoBaik</a>
-            <span>{` | Built with `}</span>
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            <span>{`© ${new Date().getFullYear()} ${data.site.siteMetadata.author} | Theme by JunhoBaik | In his heart a man plans his course, but the LORD determines his steps.`}</span>
           </footer>
         </div>
 
